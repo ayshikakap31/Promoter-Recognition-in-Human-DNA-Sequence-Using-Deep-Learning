@@ -6,7 +6,7 @@ from scipy.io import wavfile
 from scipy.signal import spectrogram
 
 # Read the input file
-with open('D:\Docs\B.Tech_Project_Final_year\Project submit\Biospectral_classification\Sequences\Train\seq511.dat', 'r') as file:
+with open('Sequences\Train\seq511.dat', 'r') as file:
     x = file.readlines()
 
 # Convert the list of strings to a single string
